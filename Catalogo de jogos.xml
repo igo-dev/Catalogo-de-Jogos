@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Catalogo de jogos</name>
+    </assembly>
+    <members>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary>
+            Buscar todos os jogos de forma paginada.
+            </summary>
+            <param name="pag">Indica qual a página sendo requisitada.</param>
+            <param name="qnt">Indica a quantidade de registros por página.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.Obter(System.Guid)">
+            <summary>
+            Buscar jogo pelo id.
+            </summary>
+            <param name="idJogo">Indica o id do jogo a ser requisitado.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.InserirJogo(Catalogo_de_jogos.Dtos.JogoDto)">
+            <summary>
+            Inserir novo jogo.
+            </summary>
+            <param name="jogoDto">Indica as propriedades do jogo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,Catalogo_de_jogos.Dtos.JogoDto)">
+            <summary>
+            Atualizar todas as informações de um jogo.
+            </summary>
+            <param name="idJogo">Indica o id do jogo a ser requisitado.</param>
+            <param name="jogoDto">Indica as propriedades do jogo.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.AtualizarPreco(System.Guid,System.Double)">
+            <summary>
+            Atualizar apenas o preco de um jogo.
+            </summary>
+            <param name="idJogo">Indica o id do jogo a ser requisitado.</param>
+            <param name="preco"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Catalogo_de_jogos.Controllers.V1.JogosController.RemoverJogo(System.Guid)">
+            <summary>
+            Remover um jogo.
+            </summary>
+            <param name="idJogo">Indica o id do jogo a ser requisitado.</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
